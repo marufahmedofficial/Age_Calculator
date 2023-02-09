@@ -35,11 +35,11 @@ class _ResultPageState extends State<ResultPage> {
               child: Stack(
                 children: [
                   CustomPaint(
-                    size: Size(width, (350*0.31473214285714285).toDouble()), 
+                    size: Size(width, (350*0.41473214285714285).toDouble()),
                     painter: CustomTopPaint(),
                   ),
                   Positioned(
-                    top: 30,
+                    top: 40,
                     child: AppName(),
                   )
                 ],
@@ -56,7 +56,7 @@ class _ResultPageState extends State<ResultPage> {
                   ),
                   SizedBox(height: 20,),
                   CustomListTile(
-                    leading: "Todays",
+                    leading: "Today",
                     trailing: getFormatedDate(selectedCurrentDate),
                   ),
                 ],
@@ -68,7 +68,7 @@ class _ResultPageState extends State<ResultPage> {
               padding: EdgeInsets.all(15),
               height: 120,
               decoration: BoxDecoration(
-                color: Color(0xff90dce2),
+                color: Colors.cyan.shade100,
                 borderRadius: BorderRadius.circular(10)
               ),
               child: Row(
