@@ -111,8 +111,8 @@ class _HomePageState extends State<HomePage> {
        final DateTime? pickedBirthDate = await showDatePicker(
         context: context,
         initialDate: initialDate,
-        firstDate: DateTime(1900),
-        lastDate: DateTime(2101),
+        firstDate: DateTime(1800),
+        lastDate: DateTime(2201),
       );
       if (pickedBirthDate != null && pickedBirthDate != selectedBithDate)
       setState(() {
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
       final DateTime? pickedCurrentDate = await showDatePicker(
         context: context,
         initialDate: initialDate,
-        firstDate: DateTime(1900),
+        firstDate: DateTime(2000),
         lastDate: DateTime(2101),
       );
 
