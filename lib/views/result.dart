@@ -39,7 +39,7 @@ class _ResultPageState extends State<ResultPage> {
                     painter: CustomTopPaint(),
                   ),
                   Positioned(
-                    top: 40,
+                    top: 25,
                     child: AppName(),
                   )
                 ],

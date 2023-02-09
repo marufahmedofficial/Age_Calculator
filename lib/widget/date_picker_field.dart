@@ -1,4 +1,5 @@
 import 'package:age_calculator/constant/color.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
@@ -42,7 +43,7 @@ class DatePickerField extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(4.0)),
                     borderSide: BorderSide(width: 2.0, color: primaryColor),
                   ),
-                  suffixIcon: Icon(Icons.calendar_today, color: textColor,)
+                  suffixIcon: Icon(CupertinoIcons.calendar, color: textColor,)
                 ),
               ),
             ),
