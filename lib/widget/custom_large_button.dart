@@ -1,4 +1,3 @@
-
 import 'package:age_calculator/constant/color.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +15,7 @@ class CustomLargeButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 20),
+      padding: EdgeInsets.symmetric(horizontal: 50),
       height: 56,
       width: MediaQuery.of(context).size.width,
       child: ElevatedButton(
@@ -25,7 +24,7 @@ class CustomLargeButton extends StatelessWidget {
           backgroundColor:  MaterialStateProperty.all<Color>(secondaryColor),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
             RoundedRectangleBorder(                  
-              borderRadius: BorderRadius.circular(10.0),
+              borderRadius: BorderRadius.circular(20.0),
             )
           )
         ),

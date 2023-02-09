@@ -14,7 +14,7 @@ class AppName extends StatelessWidget {
         children: [
           Container(
             alignment: Alignment.centerRight,
-            padding: EdgeInsets.only(left: 20),
+            padding: EdgeInsets.only(left: 20,top: 25),
             child: Text(
               "Age Calculator",
               style: TextStyle(
