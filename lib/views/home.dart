@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
               child: Stack(
                 children: [
                   CustomPaint(
-                    size: Size(width, (350 * 0.31473214285714285).toDouble()), 
+                    size: Size(width, (400 * 0.41473214285714285).toDouble()),
                     painter: CustomTopPaint(),
                   ),
                   Positioned(
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 80),
                     child: CustomPaint(
-                      size: Size(width, (399 * 0.31473214285714285).toDouble()), 
+                      size: Size(width, (399 * 0.41473214285714285).toDouble()),
                       painter: CustomBottomPaint(),
                     ),
                   ),
