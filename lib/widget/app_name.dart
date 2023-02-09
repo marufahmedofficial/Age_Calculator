@@ -21,7 +21,7 @@ class AppName extends StatelessWidget {
                 fontSize: 24,
                 fontWeight: FontWeight.w700,
                 fontFamily: 'roboto',
-                color: Colors.white,
+                color: Colors.indigo,
               ),
             ),
           ),

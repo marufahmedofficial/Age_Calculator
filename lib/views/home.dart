@@ -8,7 +8,6 @@ import 'package:age_calculator/widget/custom_large_button.dart';
 import 'package:age_calculator/widget/custom_top_paint.dart';
 import 'package:age_calculator/widget/date_picker_field.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({ Key? key }) : super(key: key);
@@ -57,12 +56,9 @@ class _HomePageState extends State<HomePage> {
             ),
             Spacer(),
             Container(
-              child: SvgPicture.asset(
-                "assets/gift.svg",
+              child: Image.asset("assets/calculator.png",
                 width: 120,
-                height: 120,
-                semanticsLabel: 'Acme Logo'
-              ),
+                height: 120,)
             ),
             Spacer(),
             DatePickerField(
