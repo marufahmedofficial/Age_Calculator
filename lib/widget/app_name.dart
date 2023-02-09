@@ -10,7 +10,7 @@ class AppName extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
             alignment: Alignment.centerRight,
@@ -18,10 +18,10 @@ class AppName extends StatelessWidget {
             child: Text(
               "Age Calculator",
               style: TextStyle(
-                fontSize: 28,
+                fontSize: 24,
                 fontWeight: FontWeight.w700,
                 fontFamily: 'roboto',
-                color: Colors.black,
+                color: Colors.white,
               ),
             ),
           ),
