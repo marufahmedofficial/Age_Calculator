@@ -119,7 +119,7 @@ class _ResultPageState extends State<ResultPage> {
               margin: EdgeInsets.symmetric(horizontal: 20),
               padding: EdgeInsets.all(15),
               decoration: BoxDecoration(
-                color: Color(0xff90dce2),
+                color: Colors.cyan.shade100,
                 borderRadius: BorderRadius.circular(10)
               ),
               child: Column(
@@ -191,7 +191,7 @@ class _ResultPageState extends State<ResultPage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 80),
                     child: CustomPaint(
-                      size: Size(width, (399*0.31473214285714285).toDouble()), 
+                      size: Size(width, (399*0.32473214285714285).toDouble()),
                       painter: CustomBottomPaint(),
                     ),
                   ),
