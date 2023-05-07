@@ -32,8 +32,27 @@ dependencies:
   flutter_native_splash: ^2.2.17
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.13.0"
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/bmi.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/images/launcher_image.png
+  image_dark: assets/images/launcher_image.png
+
+  android_12:
+    image: assets/images/launcher_image.png
+    icon_background_color: "#f7f6f1"
+    image_dark: assets/images/launcher_image.png
+    icon_background_color_dark: "#272727"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
